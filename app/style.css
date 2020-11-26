@@ -1,0 +1,13 @@
+*{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.design {
+  position: fixed;
+  top: 50px;
+  width: 350px;
+  height: auto;
+  background-color: rgb(121, 217, 210);
+}

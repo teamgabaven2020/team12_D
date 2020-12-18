@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="[がばべん]デザイン提供画面①.css">
+  <title>デザイン提供画面①</title>
+</head>
+<body>
+<!-- header -->
+  <header>
+  	<h1 class="headline">
+      <a>ロゴ(パデマ)</a>
+    </h1>
+    <ul class="nav-list">
+      <li class="nav-list-item">
+        <a>Home</a>
+      </li>
+      <li class="nav-list-item">About</li>
+      <li class="nav-list-item">Login</li>
+      <li class="nav-list-item">for user</li>
+      <li class="nav-list-item">for designer</li>
+    </ul>
+  </header>
+</body>
+</html>
+<br>
+<br>
+<p class=”ex1”>
+    <center>こちらはデザイン提供のページです。<br>
+    以下のフォームに入力をお願いいたします。<br></center>
+    </p>
+<br>    
+<p class="lead-form">デザイナー向けフォーム</p>
+<form>
+  <div class="item">
+    <label class="label">お名前</label>
+    <input class="inputs" type="text" name="name">
+  </div>
+  
+  <div class="item">
+    <label class="label">メールアドレス</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="item">
+    <p class="label">適した素材</p>
+    <div class="inputs">
+    <input id="paper" type="radio" name="menu" value="paper"><label for="paper">紙</label>
+    <input id="plastic" type="radio" name="menu" value="plastic"><label for="plastic">プラスチック</label>
+    <input id="metal" type="radio" name="menu" value="metal"><label for="metal">金属</label>
+    <input id="glass" type="radio" name="menu" value="glass"><label for="glass">ガラス</label>
+    </div>
+  </div>
+
+  <div class="item">
+    <p class="label">適した形状</p>
+    <div class="inputs">
+    <input id="blic" type="radio" name="menu2" value="blic"><label for="blic">ブリック型</label>
+    <input id="pillow" type="radio" name="menu2" value="pillow"><label for="pillow">縦ピロー型</label>
+    <input id="pouch" type="radio" name="menu2" value="pouch"><label for="pouch">パウチ型</label>
+    <input id="box" type="radio" name="menu2" value="box"><label for="box">箱型</label>
+    </div>
+  </div>
+  
+  <div class="item">
+    <label class="label">アピールポイント</label>
+    <textarea class="inputs"></textarea>
+  </div>
+
+  <div class="btn-area">
+    <input type="submit" value="次へ進む"><input type="reset" value="リセット">
+  </div>
+
+</form>
+<br>
+<!-- footer -->
+<footer>
+    　　<ul class="footer-menu">
+         <li>home ｜</li>
+         <li>about ｜</li>
+         <li>service ｜</li>
+         <li>Contact Us</li>
+        </ul>
+        <p>© All rights reserved by PackageDesignMatching.</p>
+      </footer>
+    </body>
+    </html>

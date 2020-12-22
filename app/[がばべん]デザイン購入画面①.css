@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6;
+  }
+  header {
+    padding: 20px 4% 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  h1 {
+    margin: 0; padding: 0;
+    font-size: 20px;
+  }
+  a {	
+    text-decoration: none;
+    color: #4b4b4b;
+  }
+  nav {
+    margin: 0 0 0 auto;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+  }
+  
+
+
+  .itibunme {
+    position: relative;
+    padding-left: 35px;
+    text-align: center;
+  }
+  .itibunme:before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f0eb";
+    background: #ffca2c;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 50%;
+    left: 375px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .itibunme:after {
+    /*吹き出しのちょこんと出た部分*/
+    content: '';
+    display: block;
+    position: absolute;
+    left: 395px;
+    height: 0;
+    width: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 12px solid #ffca2c;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+
+
+  .itibunme2 {
+    font-weight:bold;
+  }
+
+
+
+
+
+
+
+  #form5{
+    position:relative;
+    margin-bottom:20px;
+    }
+    #sbox5{	
+    outline:0;	
+    height:50px;
+    padding:0 10px; 
+    position:absolute; 
+    left:500px;
+    top:0; 
+    max-width:270px;
+    border-radius:2px;
+    background:#eee;
+    }
+    #sbtn5{
+    width:70px;
+    height:50px;
+    position:absolute; 
+    left:700px; 
+    top:0;
+    border-radius:2px;
+    background:#7fbfff;
+    color:#fff;
+    font-weight:bold;
+    font-size:16px;
+    border:none;
+    }
+    #sbtn5:hover{
+    background:rgb(255, 255, 255);
+    color:#7fbfff;
+    }
+
+
+
+
+
+
+
+    .nibunme {
+      position: relative;
+      padding-left: 35px;
+      text-align: center;
+    }
+    .nibunme:before {
+      position: absolute;
+      font-family: "Font Awesome 5 Free";
+      content: "\f0eb";
+      background: #ffca2c;
+      color: white;
+      font-weight: 900;
+      font-size: 15px;
+      border-radius: 50%;
+      left: 390px;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    .nibunme:after {
+      /*吹き出しのちょこんと出た部分*/
+      content: '';
+      display: block;
+      position: absolute;
+      left: 410px;
+      height: 0;
+      width: 0;
+      border-top: 7px solid transparent;
+      border-bottom: 7px solid transparent;
+      border-left: 12px solid #ffca2c;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  
+
+
+    .nibunme2 {
+      font-weight:bold;
+    }
+
+
+
+
+
+
+    .cp_ipcheck {
+      width: 90%;
+      margin: 2em auto;
+      text-align: center;
+      left: 500px;
+      }
+      .cp_ipcheck label {
+      position: relative;
+      display: block;
+      width: 100%;
+      margin: 2px 0 0;
+      padding: 10px 0;
+      }
+      .cp_ipcheck label input[type='checkbox'] {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      float: left; 
+      left: 480px;
+      margin-top: 3px;
+      margin-right: 15px;
+      }
+      .cp_ipcheck label input[type='checkbox']:checked + div span {
+      position: absolute;
+      top: -5px;
+      left: 100%;
+      display: inline-block;
+      visibility: visible;
+      clear: both;
+      margin: 0 0 0 20px;
+      padding: 8px 15px;
+      transition: transform 200ms ease;
+      transform: translateX(0px);
+      text-align: center;
+      white-space: nowrap;
+      color: #ffffff;
+      border-radius: 4px;
+      background-color: rgba(34, 34, 34, 0.9);
+      box-shadow: 0 0 10px rgba(34, 34, 34, 0.2);
+      }
+      .cp_ipcheck label input[type='checkbox']:checked + div span:before {
+      position: absolute;
+      top: 4px;
+      left: -1px;
+      content: '';
+      transform: rotate(45deg);
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid rgba(34, 34, 34, 0.9);
+      }
+      .cp_ipcheck label div {
+      position: relative;
+      display: inline-block;
+      }
+      .cp_ipcheck label div span {
+      position: absolute;
+      visibility: hidden;
+      transition: transform 200ms ease;
+      transform: translateX(-10px);
+      }
+      .cp_ipcheck label:nth-of-type(1) input[type='checkbox']:checked + div span {
+      background-color: #2e9b72;
+      }
+      .cp_ipcheck label:nth-of-type(1) input[type='checkbox']:checked + div span:before {
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid rgba(46,156,114, 0.9);
+      }
+      .cp_ipcheck label:nth-of-type(2) input[type='checkbox']:checked + div span {
+      background-color: #36509a;
+      }
+      .cp_ipcheck label:nth-of-type(2) input[type='checkbox']:checked + div span:before {
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid rgba(54,80,154, 0.9);
+      }
+      .cp_ipcheck label:nth-of-type(3) input[type='checkbox']:checked + div span {
+      background-color: #f7c735;
+      }
+      .cp_ipcheck label:nth-of-type(3) input[type='checkbox']:checked + div span:before {
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid rgba(247,199,53, 0.9);
+      }
+      .cp_ipcheck label:nth-of-type(4) input[type='checkbox']:checked + div span {
+      background-color: #a62e7a;
+      }
+      .cp_ipcheck label:nth-of-type(4) input[type='checkbox']:checked + div span:before {
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid rgba(166,46,122, 0.9);
+      }
+      .cp_ipcheck label:nth-of-type(5) input[type='checkbox']:checked + div span {
+      background-color: #da3c41;
+      }
+      .cp_ipcheck label:nth-of-type(5) input[type='checkbox']:checked + div span:before {
+      border-top: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 8px solid rgba(218,60,65, 0.9);
+      }
+
+
+
+
+
+
+      .sanbunme {
+        text-align: center;
+        }
+
+
+
+.btn2tsume {
+  width:70px;
+  height:50px;
+  position:absolute; 
+  left:550px; 
+  top:580px; 
+  border-radius:2px;
+  background:#7fbfff;
+  color:#fff;
+  font-weight:bold;
+  font-size:16px;
+  border:none;
+  line-height: 50px;
+  text-align: center;
+  }
+.btn2tsume:hover{
+  background:rgb(255, 255, 255);
+  color:#7fbfff;
+  }

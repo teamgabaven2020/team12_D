@@ -7,39 +7,36 @@
 </head>
 <body>
 <!-- header -->
-  <header>
-  	<h1 class="headline">
-      <a>ロゴ(パデマ)</a>
-    </h1>
-    <ul class="nav-list">
-      <li class="nav-list-item">
-        <a>Home</a>
-      </li>
-      <li class="nav-list-item">About</li>
-      <li class="nav-list-item">Login</li>
-      <li class="nav-list-item">for user</li>
-      <li class="nav-list-item">for designer</li>
+<header>
+  <h1>
+    <a href="[がばべん]ホーム画面.html">PaDeMa</a>
+</h1>
+<nav class="pc-nav">
+    <ul>
+        <li><a href="#">PaDeMaとは…??</a></li>
+        <li><a href="[がばべん]ログイン画面.html">ログインする</a></li>
+        <li><a href="[がばべん]デザイン購入画面①.html">デザインを買いたい</a></li>
+        <li><a href="[がばべん]デザイン提供画面①.html">デザインを売りたい</a></li>
+        <li><a href="[がばべん]お問い合わせページ.html">お問い合わせ</a></li>
+        <li><a href="#">Twitter</a></li>
     </ul>
-  </header>
+</nav>
+</header>
 </body>
 </html>
 <br>
 <br>
-<p class=”ex1”>
-    <center>こちらはデザイン提供のページです。<br>
-    以下のフォームに入力をお願いいたします。<br></center>
-    </p>
-<br>    
-<p class="lead-form">デザイナー向けフォーム</p>
+<br>
+<center><h2>デザイナー向け入力フォーム</h2></center>
 <form>
   <div class="item">
     <label class="label">お名前</label>
-    <input class="inputs" type="text" name="name">
+    <input class="inputs" type="text" name="name" placeholder="がばべん太郎">
   </div>
   
   <div class="item">
     <label class="label">メールアドレス</label>
-    <input class="inputs" type="email" name="email">
+    <input class="inputs" type="email" name="email" placeholder="PCメールを推奨します">
   </div>
 
   <div class="item">
@@ -61,27 +58,15 @@
     <input id="box" type="radio" name="menu2" value="box"><label for="box">箱型</label>
     </div>
   </div>
-  
+
   <div class="item">
-    <label class="label">アピールポイント</label>
+    <label class="label">アピール</label>
     <textarea class="inputs"></textarea>
   </div>
 
   <div class="btn-area">
-    <input type="submit" value="次へ進む"><input type="reset" value="リセット">
+    <input type="button" value="次へ進む" onClick="location.href='[がばべん]デザイン提供画面②.html'"><input type="reset" value="リセット">
   </div>
 
 </form>
 <br>
-<!-- footer -->
-<footer>
-    　　<ul class="footer-menu">
-         <li>home ｜</li>
-         <li>about ｜</li>
-         <li>service ｜</li>
-         <li>Contact Us</li>
-        </ul>
-        <p>© All rights reserved by PackageDesignMatching.</p>
-      </footer>
-    </body>
-    </html>

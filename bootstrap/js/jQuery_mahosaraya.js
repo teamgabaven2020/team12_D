@@ -1,8 +1,8 @@
 $('#btnbutton').click(function(){
-  $("#btnbutton").html("クリックされました");
+  $("#btnbutton").html("クリック");
 });
-$("#btnbutton").css("color","red");
-$("button").css("background-color","black");
+$("#btnbutton").css("color","blue");
+$("button").css("background-color","white");
 $("#btnbutton").click(function(){
     window.location.href = "./index.html";
 });
